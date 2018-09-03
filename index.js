@@ -12,7 +12,7 @@ const db = low(adapter);
 
 db.defaults({ histoires: [], xp: []}).write();
 var prefix = "ub!!";
-client.login("process.env.TOKEN");
+client.login(process.env.TOKEN);
 
 // Optional events
 dbl.on('posted', () => {
