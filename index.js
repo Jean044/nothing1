@@ -45,6 +45,7 @@ client.on('message', message => {
         var xp_embed = new Discord.RichEmbed()
         .setTitle(`Stat des XP de ${message.author.username}`)
         .setColor('RANDOM')
+        .setThumbnail(message.author.avatarURL)
         .setDescription('Affichage Des XP')
         .addField("XP:", `${xpfinal[1]} xp`)
         .setFooter("Amuse toi :p")
