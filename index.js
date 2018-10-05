@@ -152,7 +152,7 @@ client.on(`message`, message => {
         .addField(":tada:fun.help", "Affiche l'aide pour le fun")
         .addField(":gear:utilitaires.help", "Affiche l'aide pour les commandes utilitaires comme par exemple(infobot donne les infos sur le bot)")
         .addField(":bookmark_tabs:vcs.help", "Affiche l'aide pour le vcs d'ultrabot")
-        .addField("La commande :loudspeaker:d'annonce a été tranferé dans :gear:utilitaires.help")
+        .addField("La commande :loudspeaker:d'annonce a été tranferé dans", ":gear:utilitaires.help")
         .addField(":pencil:report.help", "Affiche l'aide pour la commande de report")
         .setFooter("Menu d'aide - De tout les commandes")
         .setTimestamp()
