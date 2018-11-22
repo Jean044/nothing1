@@ -1,0 +1,29 @@
+{
+  "name": "nothing1",
+  "scripts": {
+  },
+  "env": {
+    "DBL": {
+      "required": true
+    },
+    "TOKEN": {
+      "required": true
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1
+    },
+    "worker": {
+      "quantity": 1
+    }
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}
